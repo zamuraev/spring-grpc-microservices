@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS users
+(
+    login VARCHAR(128) PRIMARY KEY,
+    name VARCHAR(128),
+    genre VARCHAR(128)
+);
